@@ -32,7 +32,7 @@ async function notas() {
         <td>${d.nombre}</td> 
         <td>
             <svg width="280" height="30"> 
-            <rect x="0" y="0" width="280" height="30" fill="lightyellow"> </rect>
+            <rect x="0" y="0" width="280" height="30" fill="#EBC6DA"> </rect>
             <rect x="0" y="0" width="${barrita(d.nota)}" height="30" fill="#5b1868"> </rect>
                 <text x="10%" y="70%" fill="white" font-weight="700">
                 ${d.nota.toFixed(1)} </text>
