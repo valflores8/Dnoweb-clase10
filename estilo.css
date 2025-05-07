@@ -38,7 +38,8 @@ h1{
 
 table, th, td{ 
  	border-bottom: 2px solid black; 
- 	border-collapse: collapse; 
+ 	border-collapse: collapse;
+ 	color: var(--texto); 
  	}
 
 table{ margin-bottom: 0.6rem; }
@@ -46,5 +47,8 @@ th, td{ padding:0.3rem; }
 
 td:nth-child(1){ width:20%; text-align: center}
 th:nth-child(1){ width:20%; text-align: center}
+p{
+	color: var(--texto);
+	}
 
 
