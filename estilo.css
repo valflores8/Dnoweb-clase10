@@ -3,15 +3,15 @@
 /*colocar mdn paraa encontrar definiciones*/
 
 :root{
-	--main-color: #FFFBE0;
-	--colorclarorosa: #EBC6DA;
-	--color-oscuro-mor: #5b1868;
-	--color-oscuro-caf: #271f1c;
+	--ClaronAM: #FFFBE0;
+	--ClaroROsa: #EBC6DA;
+	--OscuroMOra: #5b1868;
+	--OscuroCAfe: #271f1c;
 	}
 
 body {
 	font-family: "Atkinson Hyperlegible";
-	background: #EBC6DA;
+	background: var(--ClaroROsa);
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ div.container {
 	width: min(800px, 90%);
 	margin: 0 auto;
 	padding: 2rem;
-	background: #FFFBE0;
+	background: var(--ClaronAM);
 	text-align: left;
 	}
 
