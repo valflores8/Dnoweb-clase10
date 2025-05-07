@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /*colocar mdn paraa encontrar definiciones*/
 
 :root{
-	--color-claro1: #FFF9C4;
-	--color-claro2: #e8bcd2;
-	--color-oscuro1: #FFF9C4;
-	--color-oscuro2: #FFF9C4;
-}
+	--main-color: #FFFBE0;
+	--colorclarorosa: #EBC6DA;
+	--color-oscuro-mor: #5b1868;
+	--color-oscuro-caf: #271f1c;
+	}
 
 body {
 	font-family: "Atkinson Hyperlegible";
-	background: lightyellow;
+	background: #EBC6DA;
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -23,7 +23,7 @@ div.container {
 	width: min(800px, 90%);
 	margin: 0 auto;
 	padding: 2rem;
-	background: rgba(235, 215, 225, 0.9);
+	background: #FFFBE0;
 	text-align: left;
 	}
 
