@@ -23,7 +23,7 @@ function barrita(n) {
 // viewbox {0 0 210 30}
 
 async function notas() {
-    let consulta = await fetch("http://raw.githubusercontent.com/valflores8/Dnoweb-clase10/refs/heads/main/notas.json");
+    let consulta = await fetch("https://raw.githubusercontent.com/valflores8/Dnoweb-clase10/refs/heads/main/notas.json");
     let data = await consulta.json();
     console.log(data);
     data.forEach((d) => {
