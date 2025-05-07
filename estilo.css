@@ -6,7 +6,7 @@
 	--ClaronAM: #FFFBE0;
 	--ClaroROsa: #EBC6DA;
 	--OscuroMOra: #5b1868;
-	--OscuroCAfe: #271f1c;
+	--texto: #412c27;
 	--notaspromedio: #ffa000;
 	--notaminima: #dd2c00;
 	}
@@ -30,9 +30,10 @@ div.container {
 	}
 
 h1{
-	font-weight: lighter;
+	font-weight: bold;
 	font-size: calc(2rem + 3vw);
 	margin: 0;
+	color: var(--texto);
 	}
 
 table, th, td{ 
