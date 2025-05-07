@@ -23,7 +23,7 @@ function barrita(n) {
 // viewbox {0 0 210 30}
 
 async function notas() {
-    let consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/opr/refs/heads/main/clase-08/notas.json");
+    let consulta = await fetch("http://raw.githubusercontent.com/valflores8/Dnoweb-clase10/refs/heads/main/notas.json");
     let data = await consulta.json();
     console.log(data);
     data.forEach((d) => {
@@ -32,12 +32,12 @@ async function notas() {
         <td>${d.nombre}</td> 
         <td>
             <svg width="280" height="30"> 
-            <rect x="0" y="0" width="280" height="30" fill="#EBC6DA"> </rect>
-            <rect x="0" y="0" width="${barrita(d.nota)}" height="30" fill="#5b1868"> </rect>
-                <text x="10%" y="70%" fill="white" font-weight="700">
+            <rect x="0" y="0" width="280" height="30" fill="var(--ClaroROsa)"> </rect>
+            <rect x="0" y="0" width="${barrita(d.nota)}" height="30" fill="var(--OscuroMOra)"> </rect>
+                <text x="10%" y="70%" fill="var(--ClaronAM)" font-weight="700">
                 ${d.nota.toFixed(1)} </text>
-            <line x1="${5.9 * 40}" y1="0" x2="${5.9 * 40}" y2="15" stroke="#ffa000" stroke-width="2"></line>
-            <line x1="${4 * 40}" y1="0" x2="${4 * 40}" y2="15" stroke="#dd2c00" stroke-width="2"></line>
+            <line x1="${5.9 * 40}" y1="0" x2="${5.9 * 40}" y2="15" stroke="var(--notaspromedio)" stroke-width="2"></line>
+            <line x1="${4 * 40}" y1="0" x2="${4 * 40}" y2="15" stroke="var(--notaminima)" stroke-width="2"></line>
             </svg> 
         </td>
         </tr> `;
